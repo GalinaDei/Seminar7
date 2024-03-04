@@ -41,7 +41,7 @@ def read_file(file1: str, file2: str, file3: str):
             else:
                 name = name.lower()
                 mult = abs(mult)
-            f3.write(f'{name}{mult}\n')
+            f3.write(f'{name}: {mult}\n')
 
 
 if __name__ == '__main__':
